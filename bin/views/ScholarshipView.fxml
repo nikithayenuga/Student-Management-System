@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="controllers.ScholarshipController">
+    <TextField fx:id="scholarshipNameField" promptText="Scholarship Name" />
+    <TextField fx:id="amountField" promptText="Amount" />
+    <TextArea fx:id="descriptionField" promptText="Description" />
+    <Button text="Add/Edit Scholarship" onAction="#addScholarship" />
+</VBox>

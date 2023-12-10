@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="controllers.ScholarshipDetailsController">
+    <TableView fx:id="scholarshipTableView">
+        <columns>
+            <TableColumn fx:id="nameColumn" text="Name" />
+            <TableColumn fx:id="amountColumn" text="Amount" />
+            <TableColumn fx:id="descriptionColumn" text="Description" />
+        </columns>
+    </TableView>
+    <HBox spacing="10">
+        <Button fx:id="addButton" text="Add" onAction="#handleAdd"/>
+        <Button fx:id="editButton" text="Edit" onAction="#handleEdit"/>
+        <Button fx:id="deleteButton" text="Delete" onAction="#handleDelete"/>
+        <Button text="Logout" onAction="#handleLogout"/>
+    </HBox>
+</VBox>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="controllers.UniversitySelectionController">
+    <ComboBox fx:id="universityComboBox" promptText="Select University" />
+    <!-- Additional controls for action buttons if necessary -->
+</VBox>
